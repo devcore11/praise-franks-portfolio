@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Praise Franks about your next short-form video project." />
+    <title>Contact — Praise Franks</title>
+    <script>
+      document.documentElement.classList.toggle('dark', localStorage.getItem('theme') === 'dark');
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: { extend: { fontFamily: { sans: ['Poppins', 'Inter', 'sans-serif'] } } },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/theme.js"></script>
+    <script defer src="js/email.js"></script>
+    <script defer src="js/animations.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body
+    data-page="contact"
+    class="bg-white text-zinc-950 transition-colors duration-500 dark:bg-[#09090b] dark:text-white">
+    <div id="site-header"></div>
+    <main>
+      <section class="page-hero">
+        <div class="mx-auto max-w-7xl">
+          <p class="eyebrow hero-reveal">Let’s talk</p>
+          <h1 class="page-title hero-reveal mt-6">
+            Have a good<br /><span class="text-zinc-400 dark:text-zinc-500">one in mind?</span>
+          </h1>
+        </div>
+      </section>
+      <section class="section-pad border-t border-zinc-200 dark:border-zinc-800">
+        <div class="mx-auto grid max-w-7xl gap-20 lg:grid-cols-[.7fr_1.3fr]">
+          <div class="reveal">
+            <p class="eyebrow">Start here</p>
+            <p class="mt-6 max-w-sm text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+              Tell me about your project, your goals, and how I can help bring your ideas to life.
+            </p>
+            <div class="mt-12 space-y-7">
+              <div>
+                <p class="eyebrow">Email</p>
+                <a class="contact-link mt-2 block" href="mailto:hello@praisefranks.com"
+                  >frankspraise2@gmail.com ↗</a
+                >
+              </div>
+              <div>
+                <p class="eyebrow">Find me online</p>
+                <div class="mt-4 flex gap-4">
+                  <a
+                    class="social-link"
+                    href="https://www.instagram.com/praise.franks/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Instagram</a
+                  ><a class="social-link" href="https://x.com/praisefranks" target="_blank" rel="noreferrer">X</a
+                  ><a
+                    class="social-link"
+                    href="https://www.youtube.com/@praiseeditss"
+                    target="_blank"
+                    rel="noreferrer"
+                    >YouTube</a
+                  >
+
+                  <a
+                    class="social-link"
+                    href="https://www.tiktok.com/@praiseedits_"
+                    target="_blank"
+                    rel="noreferrer"
+                    >TikTok</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reveal">
+            <form id="contact-form" class="space-y-8" novalidate>
+              <div class="grid gap-8 sm:grid-cols-2">
+                <label class="field-label"
+                  >Name<input required name="name" type="text" placeholder="Your name" /></label
+                ><label class="field-label"
+                  >Email<input required name="email" type="email" placeholder="you@example.com"
+                /></label>
+              </div>
+              <label class="field-label"
+                >Subject<input
+                  required
+                  name="subject"
+                  type="text"
+                  placeholder="What can I help with?" /></label
+              ><label class="field-label"
+                >Message<textarea
+                  required
+                  name="message"
+                  rows="6"
+                  placeholder="A few details about your project..."></textarea>
+              </label>
+              <div class="flex flex-wrap items-center gap-5">
+                <button id="submit-button" class="button button-dark" type="submit">
+                  <span class="button-label">Send inquiry</span
+                  ><span class="button-loading hidden">Sending…</span><span>↗</span>
+                </button>
+                <p id="form-status" class="text-sm" role="status"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+  </body>
+</html>
+
