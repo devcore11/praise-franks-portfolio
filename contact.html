@@ -110,9 +110,21 @@
                   placeholder="A few details about your project..."></textarea>
               </label>
               <div class="flex flex-wrap items-center gap-5">
-                <button id="submit-button" class="button button-dark" type="submit">
+                <button id="submit-button" class="button button-dark flex items-center" type="submit">
                   <span class="button-label">Send inquiry</span
-                  ><span class="button-loading hidden">Sending…</span><span>↗</span>
+                  ><span class="button-loading hidden">Sending…</span><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-move-up-right-icon lucide-move-up-right">
+                  <path d="M13 5H19V11" />
+                  <path d="M19 5L5 19" /></svg>
                 </button>
                 <p id="form-status" class="text-sm" role="status"></p>
               </div>
