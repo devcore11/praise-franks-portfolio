@@ -1,8 +1,10 @@
 window.videoProjects = [
   {
-    title: 'Short-Form Podcast Edit ',
+    title: 'Podcast Edit',
+
     description:
-      'Dynamic captions, sound design, and custom After Effects motion graphics brought this podcast clip to life.',
+      'A fast-paced podcast edit featuring dynamic captions, clean sound design, punchy transitions, and custom After Effects motion graphics.',
+
     skills: [
       'Adobe Premiere Pro',
       'Adobe After Effects',
@@ -11,9 +13,12 @@ window.videoProjects = [
       'Sound Design',
       'Transitions',
     ],
-    video: '_2mVfzpn-RQ',
-    published: '2026-08-16',
+
+    video: 'P9pPzfSflFY',
+    published: '2026-09-07',
   },
+
+  
   {
     title: 'Will Smith Podcast Edit',
     description:
@@ -43,5 +48,19 @@ window.videoProjects = [
     video: 'JUNUKVgOVmY',
     published: '2026-08-05',
   },
+  {
+    title: 'Short-Form Podcast Edit ',
+    description:
+      'Dynamic captions, sound design, and custom After Effects motion graphics brought this podcast clip to life.',
+    skills: [
+      'Adobe Premiere Pro',
+      'Adobe After Effects',
+      'Motion Graphics',
+      'Dynamic Captions',
+      'Sound Design',
+      'Transitions',
+    ],
+    video: '_2mVfzpn-RQ',
+    published: '2026-08-16',
+  },
 ];
-
