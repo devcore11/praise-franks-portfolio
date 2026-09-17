@@ -1,5 +1,22 @@
 window.videoProjects = [
   {
+    title: 'Talking Head Edit | Premiere Pro & After Effects',
+
+    description:
+      'A talking head edit featuring dynamic captions, sound design, transitions, and motion graphics.',
+    skills: [
+      'Adobe Premiere Pro',
+      'Adobe After Effects',
+      'Motion Graphics',
+      'Dynamic Captions',
+      'Sound Design',
+      'Transitions',
+    ],
+
+    video: 'jFLOmUdG3UU',
+    published: '2026-09-17',
+  },
+  {
     title: 'Podcast Edit',
 
     description:
@@ -18,7 +35,6 @@ window.videoProjects = [
     published: '2026-09-07',
   },
 
-  
   {
     title: 'Will Smith Podcast Edit',
     description:
