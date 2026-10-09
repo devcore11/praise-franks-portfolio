@@ -1,6 +1,6 @@
 window.videoProjects = [
   {
-    title: 'eeTalking Head Edit | Premiere Pro & After Effects',
+    title: 'Short-Form Edit | Premiere Pro & After Effects',
 
     description:
       'A talking head edit featuring dynamic captions, sound design, transitions, and motion graphics.',
@@ -13,7 +13,7 @@ window.videoProjects = [
       'Transitions',
     ],
 
-    video: 'eEe_xelGDFg?si',
+    video: 'qksbuIHw6cU?si',
     published: '2026-09-17',
   },
   {
@@ -101,3 +101,4 @@ window.videoProjects = [
   //   published: '2026-08-16',
   // },
 ];
+ 
